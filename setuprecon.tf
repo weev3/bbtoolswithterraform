@@ -27,6 +27,8 @@ connection {
     inline = [
       "apt-get update",
       "apt-get update",
+      "apt install unzip",
+      "apt install unzip",
       "chmod +x install.sh",
       "./install.sh",
       "shutdown -r now"
